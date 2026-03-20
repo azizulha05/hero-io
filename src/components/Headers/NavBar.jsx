@@ -9,7 +9,9 @@ const NavBar = () => {
     <>
       <li>
         <NavLink
-          className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] py-2 px-4 rounded font-semibold text-white"
+          className={({ isActive }) =>
+            `${isActive ? "bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] text-white" : "bg-gray-200 text-black"} py-2 px-4 rounded font-semibold `
+          }
           to="/"
         >
           Home
@@ -17,7 +19,9 @@ const NavBar = () => {
       </li>
       <li>
         <NavLink
-          className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] py-2 px-4 rounded font-semibold text-white"
+          className={({ isActive }) =>
+            `${isActive ? "bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] text-white" : "bg-gray-200 text-black"} py-2 px-4 rounded font-semibold `
+          }
           to="apps"
         >
           Apps
@@ -25,7 +29,9 @@ const NavBar = () => {
       </li>
       <li>
         <NavLink
-          className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] py-2 px-4 rounded font-semibold text-white"
+          className={({ isActive }) =>
+            `${isActive ? "bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] text-white" : "bg-gray-200 text-black"} py-2 px-4 rounded font-semibold `
+          }
           to="installation"
         >
           Installation
