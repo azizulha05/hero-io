@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "title": "TaskMaster",
+    "companyName": "ProductiveApps Inc.",
+    "id": 1,
+    "description": "A powerful task management app to organize your daily life efficiently.",
+    "size": 45,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "title": "FitLife",
+    "companyName": "HealthTech Solutions",
+    "id": 2,
+    "description": "Track your workouts, diet, and health metrics with FitLife.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 405 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d",
+    "title": "FoodiePal",
+    "companyName": "GourmetTech",
+    "id": 3,
+    "description": "Discover restaurants, order food, and share reviews with friends.",
+    "size": 85,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 1120 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "title": "MindCalm",
+    "companyName": "ZenApps",
+    "id": 4,
+    "description": "Meditation and mindfulness exercises to reduce stress and anxiety.",
+    "size": 35,
+    "reviews": 870,
+    "ratingAvg": 4.3,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 395 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "title": "PhotoMaster",
+    "companyName": "CreativeSoft",
+    "id": 5,
+    "description": "Edit photos like a pro with powerful filters and tools.",
+    "size": 110,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4",
+    "title": "BudgetBuddy",
+    "companyName": "FinancePro Ltd.",
+    "id": 6,
+    "description": "Track expenses and manage your personal finances effortlessly.",
+    "size": 40,
+    "reviews": 1120,
+    "ratingAvg": 4.1,
+    "downloads": 65000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 485 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "title": "TravelMate",
+    "companyName": "ExploreWorld Inc.",
+    "id": 7,
+    "description": "Plan trips, book hotels, and explore new destinations easily.",
+    "size": 95,
+    "reviews": 1750,
+    "ratingAvg": 4.5,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 855 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70",
+    "title": "LearnLang",
+    "companyName": "EduTech Global",
+    "id": 8,
+    "description": "Learn new languages with interactive lessons and quizzes.",
+    "size": 70,
+    "reviews": 1340,
+    "ratingAvg": 4.2,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 565 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15",
+    "title": "NewsPulse",
+    "companyName": "InfoStream Media",
+    "id": 9,
+    "description": "Stay updated with the latest news from around the world.",
+    "size": 50,
+    "reviews": 980,
+    "ratingAvg": 4.0,
+    "downloads": 72000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1495562569060-2eec283d3391",
+    "title": "MovieBuff",
+    "companyName": "CinemaTech Ltd.",
+    "id": 10,
+    "description": "Find showtimes, reviews, and trailers for your favorite movies.",
+    "size": 80,
+    "reviews": 1250,
+    "ratingAvg": 4.3,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 510 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "title": "WeatherWise",
+    "companyName": "ClimateTech",
+    "id": 11,
+    "description": "Accurate weather forecasts, alerts, and climate insights worldwide.",
+    "size": 30,
+    "reviews": 900,
+    "ratingAvg": 4.1,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+    "title": "ShopEase",
+    "companyName": "RetailTech Solutions",
+    "id": 12,
+    "description": "Shop online with ease and get fast deliveries.",
+    "size": 90,
+    "reviews": 1600,
+    "ratingAvg": 4.4,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 730 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d",
+    "title": "GameZone",
+    "companyName": "FunGames Studio",
+    "id": 13,
+    "description": "Play hundreds of games, track achievements, and compete with friends.",
+    "size": 120,
+    "reviews": 2000,
+    "ratingAvg": 4.5,
+    "downloads": 130000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 930 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+    "title": "MusicFlow",
+    "companyName": "AudioTech Labs",
+    "id": 14,
+    "description": "Stream millions of songs and create playlists effortlessly.",
+    "size": 75,
+    "reviews": 1450,
+    "ratingAvg": 4.3,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 665 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1485217988980-11786ced9454",
+    "title": "QuickNotes",
+    "companyName": "NoteMakers",
+    "id": 15,
+    "description": "Take notes quickly, organize them, and sync across devices.",
+    "size": 25,
+    "reviews": 700,
+    "ratingAvg": 4.0,
+    "downloads": 55000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 265 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d",
+    "title": "FitTrack",
+    "companyName": "HealthPlus",
+    "id": 16,
+    "description": "Monitor your fitness progress and achieve your health goals.",
+    "size": 65,
+    "reviews": 1300,
+    "ratingAvg": 4.4,
+    "downloads": 82000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 510 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d",
+    "title": "EventPlanner",
+    "companyName": "OrganizeIt",
+    "id": 17,
+    "description": "Plan events, invite guests, and track RSVPs effortlessly.",
+    "size": 55,
+    "reviews": 900,
+    "ratingAvg": 4.1,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 345 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d",
+    "title": "TravelGuide",
+    "companyName": "Wanderlust Co.",
+    "id": 18,
+    "description": "Discover top destinations, attractions, and travel tips.",
+    "size": 100,
+    "reviews": 1400,
+    "ratingAvg": 4.3,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 575 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "title": "DailyNews",
+    "companyName": "InfoToday",
+    "id": 19,
+    "description": "Get daily news updates and trending stories instantly.",
+    "size": 50,
+    "reviews": 1100,
+    "ratingAvg": 4.0,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 455 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "title": "CryptoTracker",
+    "companyName": "FinTech Labs",
+    "id": 20,
+    "description": "Track cryptocurrency prices and portfolio performance in real-time.",
+    "size": 60,
+    "reviews": 950,
+    "ratingAvg": 4.2,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 365 }
+    ]
+  }
+]
