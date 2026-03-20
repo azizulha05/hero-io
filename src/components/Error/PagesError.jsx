@@ -1,8 +1,9 @@
 import React from "react";
 import errorImg from "../../assets/error-404.png";
-import { NavLink } from "react-router";
+import { NavLink, useNavigate } from "react-router";
 
 const PagesError = () => {
+  const navigate = useNavigate();
   return (
     <div className="w-11/12 mx-auto px-2 md:px-3 lg:px-4 py-5 lg:py-10">
       <div className="flex flex-col justify-center items-center gap-6 lg:gap-10">
@@ -16,7 +17,10 @@ const PagesError = () => {
               The App you are requesting is not found on our system. please try another apps
             </p>
           </div>
-          <NavLink className="bg-[linear-gradient(125deg,#00D390_5.68%,#9F62F2_88.38%)] py-2 px-4 rounded font-semibold text-white">
+          <NavLink
+            onClick={() => navigate(-1)}
+            className="bg-[linear-gradient(125deg,#00D390_5.68%,#9F62F2_88.38%)] py-2 px-4 rounded font-semibold text-white"
+          >
             Go Back!
           </NavLink>
         </div>

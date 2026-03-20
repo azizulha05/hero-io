@@ -4,7 +4,6 @@ import { IoMdDownload } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
 const HomesCard = ({ data }) => {
   const { image, title, ratingAvg, downloads } = data;
-  console.log(data);
   return (
     <div className="bg-white p-3 rounded space-y-2">
       <figure>

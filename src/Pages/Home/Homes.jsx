@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Banner from "../../components/Headers/Banner";
 import HomesCard from "./HomesCard";
-import { NavLink, useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 
 const Homes = () => {
   const appsData = useLoaderData();
-  const [showAll, setShowAll] = useState(false);
-  const visibleData = showAll ? appsData : appsData.slice(0, 8);
   return (
     <div className="">
       <section>
@@ -22,19 +20,17 @@ const Homes = () => {
           </div>
           <div className="space-y-3">
             <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 ">
-              {visibleData.map((data) => (
+              {appsData.slice(0, 8).map((data) => (
                 <HomesCard key={data.id} data={data} />
               ))}
             </div>
             <div className="flex justify-center items-center">
-              {!showAll && (
-                <NavLink
-                  onClick={() => setShowAll(true)}
-                  className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] py-2 px-4 rounded font-semibold text-white"
-                >
-                  Show All
-                </NavLink>
-              )}
+              <Link
+                to="/apps"
+                className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] py-2 px-4 rounded font-semibold text-white"
+              >
+                Show All
+              </Link>
             </div>
           </div>
         </div>
@@ -44,30 +40,3 @@ const Homes = () => {
 };
 
 export default Homes;
-
-// const Home = () => {
-//   const cards = useLoaderData(); // loader থেকে data আসবে
-//   const [showAll, setShowAll] = useState(false);
-
-//   const visibleCards = showAll ? cards : cards.slice(0, 8);
-
-//   return (
-//     <div>
-//       <div className="card-container">
-//         {visibleCards.map((card) => (
-//           <div key={card.id} className="card">
-//             {card.name}
-//           </div>
-//         ))}
-//       </div>
-
-//       {!showAll && (
-//         <button onClick={() => setShowAll(true)}>
-//           Show All
-//         </button>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default Home;

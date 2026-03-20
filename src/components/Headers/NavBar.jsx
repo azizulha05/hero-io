@@ -55,12 +55,12 @@ const NavBar = () => {
             {navItem}
           </ul>
         </div>
-        <div className="flex gap-1 items-center">
+        <NavLink to="/" className="flex gap-1 items-center">
           <img className="h-8 w-8" src={navLogo} alt="" />
           <a className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] bg-clip-text text-transparent font-bold">
             HERO.IO
           </a>
-        </div>
+        </NavLink>
       </div>
       <div className="hidden lg:flex">
         <ul className="flex gap-2 items-center">{navItem}</ul>

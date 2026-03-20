@@ -1,16 +1,16 @@
 import { createBrowserRouter } from "react-router";
-import ErrorPages from "../components/Error/ErrorPages";
 import MainLayouts from "../Layouts/MainLayouts";
 import Homes from "../Pages/Home/Homes";
 import Apps from "../Pages/Apps/Apps";
 import Installation from "../Pages/Installation/Installation";
 import Error from "../Pages/Error/Error";
 import Contribute from "../Pages/Contribute/Contribute";
+import PagesError from "../components/Error/PagesError";
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    errorElement: ErrorPages,
+    errorElement: <PagesError />,
     Component: MainLayouts,
     children: [
       {
@@ -18,7 +18,11 @@ const routes = createBrowserRouter([
         Component: Homes,
         loader: () => fetch("appData .json"),
       },
-      { path: "/apps", Component: Apps },
+      {
+        path: "/apps",
+        Component: Apps,
+        loader: () => fetch("appData .json"),
+      },
       { path: "/installation", Component: Installation },
       { path: "/error", Component: Error },
       { path: "/contribute", Component: Contribute },

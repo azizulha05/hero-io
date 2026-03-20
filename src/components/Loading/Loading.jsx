@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Loading = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div className="flex justify-between items-center">
+      <h2>Data is coming</h2>
+    </div>
+  );
 };
 
 export default Loading;
