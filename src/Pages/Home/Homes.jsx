@@ -5,6 +5,9 @@ import { Link, useLoaderData } from "react-router";
 
 const Homes = () => {
   const appsData = useLoaderData();
+  const handleClick = () => {
+    console.log("object");
+  };
   return (
     <div className="">
       <section>
@@ -21,7 +24,7 @@ const Homes = () => {
           <div className="space-y-3">
             <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 ">
               {appsData.slice(0, 8).map((data) => (
-                <HomesCard key={data.id} data={data} />
+                <HomesCard handleClick={handleClick} key={data.id} data={data} />
               ))}
             </div>
             <div className="flex justify-center items-center">

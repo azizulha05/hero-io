@@ -1,6 +1,6 @@
 import React from "react";
 import { IoMenu } from "react-icons/io5";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import navLogo from "../../assets/logo.png";
 import navButtonLogo from "../../assets/fi_2111432.svg";
 
@@ -55,9 +55,9 @@ const NavBar = () => {
         </div>
         <NavLink to="/" className="flex gap-1 items-center">
           <img className="h-8 w-8" src={navLogo} alt="" />
-          <a className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] bg-clip-text text-transparent font-bold">
+          <Link className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] bg-clip-text text-transparent font-bold">
             HERO.IO
-          </a>
+          </Link>
         </NavLink>
       </div>
       <div className="hidden lg:flex">
@@ -65,9 +65,7 @@ const NavBar = () => {
       </div>
       <div className="flex items-center gap-1 bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] py-2 px-4 rounded font-semibold">
         <img src={navButtonLogo} alt="" />
-        <NavLink to="contribute" className="text-white">
-          Contribute
-        </NavLink>
+        <NavLink className="text-white">Contribute</NavLink>
       </div>
     </div>
   );

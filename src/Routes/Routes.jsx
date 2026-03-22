@@ -15,15 +15,24 @@ const routes = createBrowserRouter([
       {
         index: true,
         Component: Homes,
-        loader: () => fetch("appData .json"),
+        loader: () => fetch("appData.json"),
+      },
+      {
+        path: "/contribute/:id",
+        loader: () => fetch("appData.json"),
+        Component: Contribute,
       },
       {
         path: "/apps",
         Component: Apps,
-        loader: () => fetch("appData .json"),
+        loader: () => fetch("appData.json"),
+      },
+      {
+        path: "/contribute/:id",
+        loader: () => fetch("appData.json"),
+        Component: Contribute,
       },
       { path: "/installation", Component: Installation },
-      { path: "/contribute", Component: Contribute },
     ],
   },
 ]);
